@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# generated data (regenerate with: python pipeline/run_pipeline.py)
+data/raw/
+data/processed/
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+
+# misc
+.DS_Store
+*.log
